@@ -1,24 +1,21 @@
 {
-  "name": "mynotes",
+  "name": "openaitest",
   "version": "1.0.0",
-  "description": "My first mern app with redux toolkit",
+  "description": "My first openAI project",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "server": "nodemon backend/server.js",
-    "client": "npm start --prefix frontend",
-    "dev": "npm run server"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nahid071/mynotes.git"
+    "url": "git+https://github.com/nahid071/openAiTest.git"
   },
   "author": "nahid071",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nahid071/mynotes/issues"
+    "url": "https://github.com/nahid071/openAiTest/issues"
   },
-  "homepage": "https://github.com/nahid071/mynotes#readme",
+  "homepage": "https://github.com/nahid071/openAiTest#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
