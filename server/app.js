@@ -18,6 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/notes", require("./routes/noteRoutes"));
+app.use("/api/openai", require("./routes/openAiRoutes"));
 
 app.get("/", (req, res) => res.send("Everything's under control BOSS!"));
 
