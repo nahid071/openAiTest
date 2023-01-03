@@ -1,0 +1,35 @@
+{
+  "name": "mynotes",
+  "version": "1.0.0",
+  "description": "My first mern app with redux toolkit",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahid071/mynotes.git"
+  },
+  "author": "nahid071",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahid071/mynotes/issues"
+  },
+  "homepage": "https://github.com/nahid071/mynotes#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
